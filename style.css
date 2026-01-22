@@ -1,0 +1,75 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', sans-serif;
+}
+body{
+	background-color: #fff;
+	color: #333;
+	line-height: 1.6;
+}
+header{
+	background: linear-gradient(to right,#ff7eb3,#ff758c);
+	color: white;
+	text-align: center;
+	padding: 80px 20px;
+}
+header h1{
+	font-size: 3rem;
+}
+header p{
+	margin: 15px 0;
+	font-size: 1.2rem;
+}
+.btn{
+	display: inline-block;
+	margin-top: 20px;
+	background: white;
+	color: #ff758c;
+	padding: 12px 25px;
+	border-radius: 30px;
+	text-decoration: none;
+	font-weight: bold;
+}
+section{
+	padding: 60px 20px;
+	text-align: center;
+}
+section h2{
+	color: white;
+	margin-bottom: 20px;
+}
+#products{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gao:25px;
+}
+.product-card{
+	background: #f9f9f9;
+	width: 250px;
+	padding: 20px;
+	border-radius: 15px;
+	box-shadow: o 40px 10px rgba(0,0,0,0.1);
+}
+.product-card img {
+	width: 100%;
+	border-radius: 10px;
+}
+.product-card h3{
+	margin-top: 15px;
+	color: #ff758c;
+}
+#contact p{
+	margin: 8px 0;
+}
+footer{
+	background: #ff758c;
+	color: white;
+	text-align: center;
+	padding: 15px;
+}
+#products p{
+	color: black;
+}
